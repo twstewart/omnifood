@@ -97,7 +97,7 @@ module.exports = {
       },
       fontFamily: {
         body: "Open Sans",
-        display: "Roboto",
+        display: "Roboto Slab",
       },
       boxShadow: {
         border: "inset 0 0 0 2px",
