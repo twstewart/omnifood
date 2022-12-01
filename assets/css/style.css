@@ -129,6 +129,12 @@
   right: 0;
 }
 
+.app-screen {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-list {
     display: flex;
