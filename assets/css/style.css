@@ -159,6 +159,14 @@
   background-color: #fae5d3;
 }
 
+.bg-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/assets/images/testimonials/bg-testimonials.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+  color: #fff;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-list {
     display: flex;
