@@ -691,14 +691,16 @@
           <div
             class="grid grid-cols-12 rounded-lg overflow-hidden bg-gradient-to-br from-primary-light to-primary-dark max-w-5xl mx-auto"
           >
-            <div class="col-span-12 p-6 text-gray-800">
-              <h2 class="font-display font-bold text-2xl text-center mb-6">First-time customers get a free meal!</h2>
-              <p class="text-center">
+            <div class="col-span-12 p-6 text-gray-800 md:col-span-8 md:p-12">
+              <h2 class="font-display font-bold text-2xl text-center mb-6 md:text-4xl md:text-left">
+                First-time customers get a free meal!
+              </h2>
+              <p class="text-center md:text-left">
                 Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can also cancel
                 or pause your subscription at anytime.
               </p>
-              <form id="register" action="#" class="grid grid-cols-12 gap-y-6 mt-8">
-                <div class="col-span-12">
+              <form id="register" action="#" class="grid grid-cols-12 gap-y-6 mt-8 sm:gap-x-8">
+                <div class="col-span-12 sm:col-span-6">
                   <label for="first-name" class="font-semibold text-sm capitalize block mb-2">First name</label>
                   <input
                     type="text"
@@ -709,7 +711,7 @@
                     required
                   />
                 </div>
-                <div class="col-span-12">
+                <div class="col-span-12 sm:col-span-6">
                   <label for="last-name" class="font-semibold text-sm capitalize block mb-2">Last name</label>
                   <input
                     type="text"
@@ -720,7 +722,7 @@
                     required
                   />
                 </div>
-                <div class="col-span-12">
+                <div class="col-span-12 sm:col-span-6">
                   <label for="email" class="font-semibold text-sm capitalize block mb-2">Email</label>
                   <input
                     type="email"
@@ -731,7 +733,7 @@
                     required
                   />
                 </div>
-                <div class="col-span-12">
+                <div class="col-span-12 sm:col-span-6">
                   <label for="phone-number" class="font-semibold text-sm capitalize block mb-2">Telephone</label>
                   <input
                     type="tel"
@@ -742,7 +744,10 @@
                     required
                   />
                 </div>
-                <button type="submit" class="btn col-span-12 bg-[#45260a] text-gray-50 hover:bg-[#3e2209]">
+                <button
+                  type="submit"
+                  class="btn col-span-12 bg-[#45260a] text-gray-50 hover:bg-[#3e2209] xs:w-1/2 xs:mx-auto sm:col-span-6 sm:w-full sm:mx-0 sm:mt-2"
+                >
                   Register
                 </button>
               </form>

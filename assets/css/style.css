@@ -228,4 +228,9 @@
     align-items: center;
     gap: 24px;
   }
+
+  .bg-cta {
+    display: block;
+    grid-column: span 4;
+  }
 }
