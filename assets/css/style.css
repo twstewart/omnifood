@@ -214,6 +214,14 @@
   border-top: 0;
 }
 
+.bg-cta {
+  display: none;
+  background-image: linear-gradient(to bottom right, rgba(235, 152, 78, 0.4), rgba(231, 126, 35, 0.4)),
+    url("/assets/images/meals/eating.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-list {
     display: flex;
