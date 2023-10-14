@@ -16,7 +16,7 @@
   }
 
   .link {
-    @apply inline-flex no-underline py-0.5 px-1 rounded font-normal transition-colors duration-150 focus:outline-none focus:ring-0 focus:ring-offset-transparent focus:ring-offset-1;
+    @apply inline-flex no-underline py-0.5 px-1 rounded font-medium transition-colors duration-150 focus:outline-none focus:ring-0 focus:ring-offset-transparent focus:ring-offset-1;
   }
 
   .input {
@@ -24,6 +24,14 @@
   }
 
   .page-section {
-    @apply py-11 xs:py-12 sm:py-13 md:py-14 lg:py-15 xl:py-16;
+    @apply py-10 xs:py-12 md:py-14 xl:py-16;
   }
+}
+
+.preload * {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
 }
