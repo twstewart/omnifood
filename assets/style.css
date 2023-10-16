@@ -35,3 +35,62 @@
   -ms-transition: none !important;
   -o-transition: none !important;
 }
+
+.nav-list {
+  display: none;
+}
+
+.menu-bars {
+  position: relative;
+  z-index: 75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  transform: rotate(0deg);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-bars .line {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-bars .line-a {
+  top: 4px;
+}
+
+.menu-bars .line-b {
+  top: 12px;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-bars .line-c {
+  top: 20px;
+}
+
+.menu-bars.opened .line-a,
+.menu-bars.opened .line-c {
+  top: 12px;
+}
+
+.menu-bars.opened .line-a {
+  transform: rotate(135deg);
+}
+
+.menu-bars.opened .line-b {
+  opacity: 0;
+}
+
+.menu-bars.opened .line-c {
+  transform: rotate(-135deg);
+}
