@@ -94,3 +94,31 @@
 .menu-bars.opened .line-c {
   transform: rotate(-135deg);
 }
+
+.stroke {
+  position: relative;
+  top: 1px;
+  width: 100%;
+  max-width: 80px;
+  height: 3px;
+  background-color: #777;
+}
+
+.stroke-left::before,
+.stroke-right::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 8px solid transparent;
+}
+
+.stroke-left::before {
+  border-left-color: #777;
+  left: 0;
+}
+
+.stroke-right::before {
+  border-right-color: #777;
+  right: 0;
+}
