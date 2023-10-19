@@ -122,3 +122,33 @@
   border-right-color: #777;
   right: 0;
 }
+
+.app-screen {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.app-screen::before,
+.app-screen::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 1000px;
+}
+
+.app-screen::before {
+  z-index: -10;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+}
+
+.app-screen::after {
+  z-index: -5;
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: #fae5d3;
+}
