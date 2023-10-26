@@ -152,3 +152,12 @@
   padding-bottom: 50%;
   background-color: #fae5d3;
 }
+
+.bg-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("images/testimonials/bg-testimonials.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  color: #fff;
+}
