@@ -208,3 +208,7 @@
   border: 2px solid #e5e7eb;
   border-top: 0;
 }
+
+.bg-cta {
+  background-image: url("images/meals/eating.jpg");
+}
