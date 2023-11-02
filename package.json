@@ -8,6 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
