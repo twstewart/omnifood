@@ -36,8 +36,32 @@
   -o-transition: none !important;
 }
 
+body.is-mobile {
+  overflow: hidden;
+}
+
 .nav-list {
   display: none;
+}
+
+.is-mobile .nav-list {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 0 112px;
+  background-color: #fdf2e9;
+}
+
+.is-mobile .nav-list a {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .menu-bars {
