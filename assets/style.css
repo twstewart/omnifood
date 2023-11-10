@@ -195,7 +195,7 @@ body.is-mobile {
 
 .bg-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("images/testimonials/bg-testimonials.jpg");
+    url("/images/testimonials/bg-testimonials.jpg");
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -250,5 +250,5 @@ body.is-mobile {
 }
 
 .bg-cta {
-  background-image: url("images/meals/eating.jpg");
+  background-image: url("/images/meals/eating.jpg");
 }
